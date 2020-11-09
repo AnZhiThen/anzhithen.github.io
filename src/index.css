@@ -1,0 +1,78 @@
+@font-face {
+  font-family: 'Agustina Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Agustina Regular'), url('./assets/fonts/Agustina.woff') format('woff');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Montserrat';
+  src: local('Montserrat'), url('./assets/fonts/Montserrat-Regular.ttf') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lomesty';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Lomesty'), url('./assets/fonts/Lomesty.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Inter-Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Inter-Regular'), url('./assets/fonts/Inter-Regular.woff') format('woff');
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+html,
+body {
+  scroll-behavior: smooth;
+  height: 100%;
+}
+body {
+  margin: 0;
+  font: 16px / 24px Inter-Regular, "Inter-Regular", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/* Media Query */
+@media (max-width: 1380px) {
+  html,
+  body {
+    font-size: 16px;
+    line-height: normal;
+  }
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: white;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #007cb4; 
+  border-radius: 5px;
+  border-right: 2px solid white;
+  border-left: 2px solid white;
+}
+
+::-webkit-scrollbar-thumb:horizontal{
+  background: transparent;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  border-right: 0px;
+  border-left: 0px;
+}
