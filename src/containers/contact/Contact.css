@@ -39,18 +39,17 @@
 .contact-image-div {
     display: flex;
     justify-content: center;
+    min-width: 50%;
 }
 
-.contact-image-div > img {
-    max-width: 50%;
+.contact-display-picture {
     height: auto;
-    margin-top: auto;
     border: 10px solid #56abe6;
     border-radius: 50%;
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
 }
 
-.contact-image-div > img:hover {
+.contact-display-picture:hover {
     box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.3);
 }
 
