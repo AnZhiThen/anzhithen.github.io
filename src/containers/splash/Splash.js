@@ -8,7 +8,7 @@ export default function Splash() {
                 <div className="splash-name-div-top-border"></div>
                 <div className="splash-name-div-content">
                     <div className="splash-logo-div">
-                        <img alt="Saad Working" src={require("../../assets/images/az-dp.svg")}></img>
+                        <img alt="Saad Working" src={require("../../assets/images/az-dp280x280.png")}></img>
                     </div>
                     <div className="splash-name-details">
                         <span className="splash-name-details-name">Then An Z hi</span>

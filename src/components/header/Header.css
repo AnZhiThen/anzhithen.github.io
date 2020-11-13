@@ -19,6 +19,7 @@
 
 .header li a {
   display: block;
+  font-size: 19px;
   padding: 20px 20px;
   color: #007cb4;
   text-decoration: none;

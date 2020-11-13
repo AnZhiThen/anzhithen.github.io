@@ -9,7 +9,7 @@ export default function Education() {
         <h1 className="education-heading">{educationInfo.educationTitle}</h1>
         <div className="education-card-container">
           {educationInfo.schools.map((school) => (
-            <EducationCard school={school} />
+            <EducationCard school={school} key={school.schoolName} />
           ))}
         </div>
     </div>
