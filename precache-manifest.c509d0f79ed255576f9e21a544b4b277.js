@@ -1,39 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "54372509ea348db2ff864728d294b37d",
+    "revision": "bea4886a6c099ce42a8fc3abaaad1e8c",
     "url": "/index.html"
   },
   {
-    "revision": "f4b7f36bb4f7221efa4f",
-    "url": "/static/css/3.39d32df2.chunk.css"
+    "revision": "468bca730990eac0edd0",
+    "url": "/static/css/main.59548316.chunk.css"
   },
   {
-    "revision": "224e264d0fdb21e169e0",
-    "url": "/static/css/4.54df59d4.chunk.css"
+    "revision": "d053d1e86a9e6ccfc0cb",
+    "url": "/static/js/2.d1eae92b.chunk.js"
   },
   {
-    "revision": "31d8f90c754b2ab2e497",
-    "url": "/static/css/main.0139dfc7.chunk.css"
+    "revision": "468bca730990eac0edd0",
+    "url": "/static/js/main.cdc504c6.chunk.js"
   },
   {
-    "revision": "f455c2743819a974fa06",
-    "url": "/static/js/2.74005f72.chunk.js"
-  },
-  {
-    "revision": "f4b7f36bb4f7221efa4f",
-    "url": "/static/js/3.64ac390b.chunk.js"
-  },
-  {
-    "revision": "224e264d0fdb21e169e0",
-    "url": "/static/js/4.7d5bf8f1.chunk.js"
-  },
-  {
-    "revision": "31d8f90c754b2ab2e497",
-    "url": "/static/js/main.608fb830.chunk.js"
-  },
-  {
-    "revision": "8ac49d6dc0574b122093",
-    "url": "/static/js/runtime-main.06e163ef.js"
+    "revision": "6a6a75446a286ed70198",
+    "url": "/static/js/runtime-main.ab5f7673.js"
   },
   {
     "revision": "21f233e19402cc4a66866a7f31191f0d",
@@ -76,10 +60,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/javascriptComputer.458a0bb2.svg"
   },
   {
-    "revision": "25bf045ca257e971124f3997d89f321c",
-    "url": "/static/media/logo.25bf045c.svg"
-  },
-  {
     "revision": "4b6b640e03f08c65724d87b6d9ed3df7",
     "url": "/static/media/manCoding.4b6b640e.svg"
   },
@@ -110,9 +90,5 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "74ed1e3b252c73a38b7abde62ee30a64",
     "url": "/static/media/skill.74ed1e3b.svg"
-  },
-  {
-    "revision": "b5724b64d0728e006f5907a0ab25968a",
-    "url": "/static/media/talksCardBack.b5724b64.svg"
   }
 ]);
