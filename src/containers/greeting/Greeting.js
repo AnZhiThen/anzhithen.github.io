@@ -2,7 +2,7 @@
 import "./Greeting.css";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
-import { greeting } from "../../portfolio";
+import {greeting} from "../../portfolio";
 import {Fade} from "react-reveal";
 import emoji from "react-easy-emoji";
 
@@ -17,7 +17,7 @@ export default function Greeting() {
                 {" "}
                 {greeting.greetingTitle}
                 {" "}
-                <span className="wave-emoji">{emoji("👋")}</span>
+                <span className="wave-emoji">{emoji("👋🏼")}</span>
               </h1>
               <p className="greeting-text-p subTitle">{greeting.subTitle}</p>
               <SocialMedia />
@@ -28,7 +28,7 @@ export default function Greeting() {
             </div>
           </div>
           <div className="greeting-image-div">
-            <img alt="saad sitting on table" src={require("../../assets/images/manCoding.svg")}></img>
+            <img alt="I am coding" src={require("../../assets/images/manCoding.svg")}></img>
           </div>
         </div>
       </div>

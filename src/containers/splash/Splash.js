@@ -1,5 +1,6 @@
 import React from "react";
 import "./Splash.css";
+import { splashSection } from "../../portfolio";
 
 export default function Splash() {
     return (
@@ -8,11 +9,11 @@ export default function Splash() {
                 <div className="splash-name-div-top-border"></div>
                 <div className="splash-name-div-content">
                     <div className="splash-logo-div">
-                        <img alt="Saad Working" src={require("../../assets/images/az-dp280x280.png")}></img>
+                        <img alt="=MyAvatar picture" src={require("../../assets/images/az-dp280x280.png")}></img>
                     </div>
                     <div className="splash-name-details">
-                        <span className="splash-name-details-name">Then An Z hi</span>
-                        <span className="splash-name-details-role">Frontend Developer</span>
+                        <span className="splash-name-details-name">{splashSection.username}</span>
+                        <span className="splash-name-details-role">{splashSection.jobTitle}</span>
                     </div>
                 </div>
                 <div className="splash-name-div-bottom-border"></div>

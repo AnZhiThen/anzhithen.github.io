@@ -5,19 +5,24 @@
 
 import emoji from "react-easy-emoji";
 
+const splashSection = {
+  /* Your Summary And Greeting Section */
+  username: "Then An Z hi",
+  jobTitle: "Frontend Developer",
+};
+
 const greeting = {
   /* Your Summary And Greeting Section */
   username: "Then An Z hi",
-  greetingTitle: "Hi all, I'm An Zhi",
-  subTitle: emoji("A passionate Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."),
-  resumeLink: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing"
+  greetingTitle: "Hi there! I'm An Zhi",
+  subTitle: emoji("Frontend Developer based in Singapore 🇸🇬. I am recent graduate with a passion for software and web development. While I have participated in IT internships to try out different roles, my expertise and interests lie in building interactive and scalable web applications."),
+  resumeLink: "https://drive.google.com/file/d/1Bzp7OrOsrUymGaLzaYvUIWK1Km12021Q/view?usp=sharing"
 };
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
+  github: "https://github.com/anzhithen",
   linkedin: "https://www.linkedin.com/in/then-an-zhi/",
   gmail: "anzhi.then@gmail.com",
-  facebook: "https://www.facebook.com/ThenAnZhi/",
   instagram: "https://www.instagram.com/eddie_taz/"
   // Instagram and Twitter are also supported in the links!
 };
@@ -25,19 +30,24 @@ const socialMediaLinks = {
 // Your Skills Section
 
 const skillsSection = {
-  title: "What i do",
-  skillsTitle: "I want to just live life xD",
+  skillsTitle: emoji("About me 🖥️"),
+  subTitle:('A Frontend developer that enjoys building webpages by tinkering with various Javascript libraries and frameworks.'),
   skills: [
-    emoji("⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji("⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean")
+    emoji("⚡ Transforming web mockups to highly interactive web applications"),
+    emoji("⚡ Ensuring consistency of web components across different browsers"),
+    emoji("⚡ Develop tests to ensure high code coverage in web components"),
+    emoji("⚡ Develop maintainable and reusable web components and utilities")
   ],
   /* Make Sure You include correct Font Awesome Classname to view your icon
   https://fontawesome.com/icons?d=gallery */
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
+      skillName: "JavaScript",
+      fontAwesomeClassname: "fab fa-js"
+    },
+    {
+      skillName: "vuejs",
+      fontAwesomeClassname: "fab fa-vuejs"
     },
     {
       skillName: "css3",
@@ -48,8 +58,8 @@ const skillsSection = {
       fontAwesomeClassname: "fab fa-sass"
     },
     {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
+      skillName: "html",
+      fontAwesomeClassname: "fab fa-html5"
     },
     {
       skillName: "reactjs",
@@ -60,24 +70,12 @@ const skillsSection = {
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
+      skillName: "php",
+      fontAwesomeClassname: "fab fa-php"
     },
     {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
+      skillName: "java",
+      fontAwesomeClassname: "fab fa-java"
     }
   ]
 };
@@ -91,22 +89,17 @@ const educationInfo = {
       schoolName: "Nanyang Technological University",
       logo: require("./assets/images/ntuLogo.png"),
       subHeader: "Bachelor of Engineering (Computer Science)",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      duration: "August 2015 - December 2018",
+      desc: "Focus in Information and Cyber Security, Networking and Mobility",
+      descBullets: []
     },
     {
       schoolName: "Nanyang Polytechnic",
       logo: require("./assets/images/nypLogo.png"),
-      subHeader: "Diploma in Information Technology",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      ]
+      subHeader: "Diploma in Information Technology with Merit",
+      duration: "April 2010 - April 2013",
+      desc: "Focus in Information Security",
+      descBullets: []
     }
   ]
 }
@@ -114,26 +107,53 @@ const educationInfo = {
 const workExperiences = {
   viewExperiences: true, //Set it to true to show workExperiences Section
   experienceTitle: emoji("Work Experiences 💼"),
+  linkedinLink:"https://www.linkedin.com/in/then-an-zhi/",
   experience: [
     {
       role: "Front-End Developer",  
       company: "Acronis",
       companylogo: require("./assets/images/Acronis.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      date: "Jan 2019 – Present",
+      desc: "",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Developed and maintained a client-facing web application that facilitates security settings configuration across multiple operating system platforms.",
+        "Developed Jest tests to ensure a code coverage of at least 90% on UI components.",
+        "Introduced custom components to remove the use of “v-html” syntax that renders arbitrary HTML as they are vulnerable to XSS attacks.",
+        "Removed 100% data inconsistencies of old UI components by integrating with VueX which hold the single source of truth.",
+        "Improve code maintainability and reduce error occurrences by 50% by integrating Typescript to leverage on its OOP properties and static type checks."
+      ]
+    },
+    {
+      role: "Front-End Developer",  
+      company: "Acronis",
+      companylogo: require("./assets/images/autodesk-logo.png"),
+      date: "Jan 2019 – Present",
+      desc: "",
+      descBullets: [
+        "Perform smoke tests on the latest patches of software to ensure full compatibility with other Autodesk products.",
+        "Developed C# test cases for client and server API modules to ensure correct functionality."
+      ]
+    },
+    {
+      role: "Front-End Developer",  
+      company: "Acronis",
+      companylogo: require("./assets/images/Acronis.png"),
+      date: "Jan 2019 – Present",
+      desc: "",
+      descBullets: [
+        "Designed and developed VueJS UI toolkit for internal consumption.",
+        "Developed virtual scrolling in the Scrollbar component to render data of large datasets efficiently.",
+        "Developed Jest tests to ensure a code coverage of at least 95% on UI components."
       ]
     }
   ]
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
-  subtitle: "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-3243454077",
-  email_address: "saadpasta70@gmail.com"
+  title: emoji("Reach out to me! ☎️"),
+  subtitle: "Always open for new opportunities! Feel free to drop an e-mail or reach me through any of the links below!",
+  location: "Singapore",
+  email_address: "anzhi.then@gmail.com"
 };
 
-export { greeting, socialMediaLinks, skillsSection, educationInfo, workExperiences, contactInfo};
+export { splashSection, greeting, socialMediaLinks, skillsSection, educationInfo, workExperiences, contactInfo };

@@ -7,7 +7,7 @@ export default function Footer() {
   return (
     <Fade bottom duration={1000} distance="5px">
     <div className="footer-div">
-      <p className="footer-text">{emoji("Made with ❤️ by Then An Zhi")}</p>
+      <span className="footer-text">{emoji("Made with ❤️ by Then An Zhi")}</span>
     </div>
     </Fade>
   );

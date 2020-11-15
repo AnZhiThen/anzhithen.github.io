@@ -1,6 +1,7 @@
 import React from "react";
 import "./WorkExperience.css";
 import ExperienceCard from "../../components/experienceCard/ExperienceCard";
+import Button from "../../components/button/Button";
 import { workExperiences } from "../../portfolio";
 import { Fade } from "react-reveal";
 
@@ -28,6 +29,9 @@ export default function WorkExperience() {
                                 />
                             );
                         })}
+                        </div>
+                        <div className="experience-more-link">
+                            <Button text="More work experiences" newTab={true} href={workExperiences.linkedinLink} />
                         </div>
                     </div>
                 </div>
