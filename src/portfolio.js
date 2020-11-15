@@ -113,7 +113,7 @@ const workExperiences = {
       role: "Front-End Developer",  
       company: "Acronis",
       companylogo: require("./assets/images/Acronis.png"),
-      date: "Jan 2019 – Present",
+      date: "January 2019 – Present",
       desc: "",
       descBullets: [
         "Developed and maintained a client-facing web application that facilitates security settings configuration across multiple operating system platforms.",
@@ -127,7 +127,7 @@ const workExperiences = {
       role: "Front-End Developer",  
       company: "Acronis",
       companylogo: require("./assets/images/autodesk-logo.png"),
-      date: "Jan 2019 – Present",
+      date: "August 2018 – December 2018",
       desc: "",
       descBullets: [
         "Perform smoke tests on the latest patches of software to ensure full compatibility with other Autodesk products.",
@@ -138,7 +138,7 @@ const workExperiences = {
       role: "Front-End Developer",  
       company: "Acronis",
       companylogo: require("./assets/images/Acronis.png"),
-      date: "Jan 2019 – Present",
+      date: "May 2019 – July 2018",
       desc: "",
       descBullets: [
         "Designed and developed VueJS UI toolkit for internal consumption.",
