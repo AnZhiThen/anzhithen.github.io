@@ -9,7 +9,7 @@ export default function Splash() {
                 <div className="splash-name-div-top-border"></div>
                 <div className="splash-name-div-content">
                     <div className="splash-logo-div">
-                        <img alt="=MyAvatar picture" src={require("../../assets/images/az-dp280x280.png")}></img>
+                        <img alt="MyAvatar" src={require("../../assets/images/az-dp280x280.png")}></img>
                     </div>
                     <div className="splash-name-details">
                         <span className="splash-name-details-name">{splashSection.username}</span>
