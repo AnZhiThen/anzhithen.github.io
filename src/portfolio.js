@@ -15,7 +15,7 @@ const greeting = {
   /* Your Summary And Greeting Section */
   username: "Then An Z hi",
   greetingTitle: "Hi there! I'm An Zhi",
-  subTitle: emoji("Frontend Developer based in Singapore 🇸🇬. I am recent graduate with a passion for software and web development. While I have participated in IT internships to try out different roles, my expertise and interests lie in building interactive and scalable web applications."),
+  subTitle: emoji("Frontend Developer based in Singapore 🇸🇬. I am a recent graduate with a passion for software and web development. While I have participated in IT internships to try out different roles, my expertise and interests lie in building interactive and scalable web applications."),
   resumeLink: "https://drive.google.com/file/d/1Bzp7OrOsrUymGaLzaYvUIWK1Km12021Q/view?usp=sharing"
 };
 
@@ -31,7 +31,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   skillsTitle: emoji("About me 🖥️"),
-  subTitle:('A Frontend developer that enjoys building webpages by tinkering with various Javascript libraries and frameworks.'),
+  subTitle:('A Frontend developer that enjoys building webpages by working with different Javascript libraries and frameworks.'),
   skills: [
     emoji("⚡ Transforming web mockups to highly interactive web applications"),
     emoji("⚡ Ensuring consistency of web components across different browsers"),
@@ -119,14 +119,14 @@ const workExperiences = {
         "Developed and maintained a client-facing web application that facilitates security settings configuration across multiple operating system platforms.",
         "Developed Jest tests to ensure a code coverage of at least 90% on UI components.",
         "Introduced custom components to remove the use of “v-html” syntax that renders arbitrary HTML as they are vulnerable to XSS attacks.",
-        "Removed 100% data inconsistencies of old UI components by integrating with VueX which hold the single source of truth.",
+        "Removed 100% data inconsistencies of old UI components by integrating with Vuex which hold the single source of truth.",
         "Improve code maintainability and reduce error occurrences by 50% by integrating Typescript to leverage on its OOP properties and static type checks."
       ]
     },
     {
-      role: "Front-End Developer",  
-      company: "Acronis",
-      companylogo: require("./assets/images/autodesk-logo.png"),
+      role: "Intern Software Engineer",  
+      company: "Autodesk Asia",
+      companylogo: require("./assets/images/Autodesk.png"),
       date: "August 2018 – December 2018",
       desc: "",
       descBullets: [
@@ -135,7 +135,7 @@ const workExperiences = {
       ]
     },
     {
-      role: "Front-End Developer",  
+      role: "Research Developer Associate (Frontend)",  
       company: "Acronis",
       companylogo: require("./assets/images/Acronis.png"),
       date: "May 2019 – July 2018",
