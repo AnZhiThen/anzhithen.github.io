@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.77efebc2.chunk.css",
-    "main.js": "/static/js/main.afd2c04a.chunk.js",
-    "main.js.map": "/static/js/main.afd2c04a.chunk.js.map",
+    "main.css": "/static/css/main.af2d3d60.chunk.css",
+    "main.js": "/static/js/main.fd1acf7a.chunk.js",
+    "main.js.map": "/static/js/main.fd1acf7a.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.ab5f7673.js",
     "runtime-main.js.map": "/static/js/runtime-main.ab5f7673.js.map",
     "static/js/2.14c50d01.chunk.js": "/static/js/2.14c50d01.chunk.js",
     "static/js/2.14c50d01.chunk.js.map": "/static/js/2.14c50d01.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.0b7df6307dac26624a963a48b97bd6a7.js": "/precache-manifest.0b7df6307dac26624a963a48b97bd6a7.js",
+    "precache-manifest.ef4bff748c3716aab0df9637637e76f4.js": "/precache-manifest.ef4bff748c3716aab0df9637637e76f4.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.77efebc2.chunk.css.map": "/static/css/main.77efebc2.chunk.css.map",
+    "static/css/main.af2d3d60.chunk.css.map": "/static/css/main.af2d3d60.chunk.css.map",
     "static/media/Autodesk.png": "/static/media/Autodesk.8f39c0ea.png",
     "static/media/index.css": "/static/media/Lomesty.b5168226.woff",
     "static/media/az-dp280x280.png": "/static/media/az-dp280x280.b0c0b539.png",
@@ -23,7 +23,7 @@
   "entrypoints": [
     "static/js/runtime-main.ab5f7673.js",
     "static/js/2.14c50d01.chunk.js",
-    "static/css/main.77efebc2.chunk.css",
-    "static/js/main.afd2c04a.chunk.js"
+    "static/css/main.af2d3d60.chunk.css",
+    "static/js/main.fd1acf7a.chunk.js"
   ]
 }
