@@ -16,7 +16,7 @@ const greeting = {
   username: "Then An Z hi",
   greetingTitle: "Hi there! I'm An Zhi",
   subTitle: emoji("Frontend Developer based in Singapore 🇸🇬. I am a recent graduate with a passion for software and web development. While I have participated in IT internships to try out different roles, my expertise and interests lie in building interactive and scalable web applications."),
-  resumeLink: "https://drive.google.com/file/d/1Bzp7OrOsrUymGaLzaYvUIWK1Km12021Q/view?usp=sharing"
+  resumeLink: "https://drive.google.com/file/d/1Q7tE55VKiuDjbx883_LPhlus1vcblgt7/view?usp=sharing"
 };
 
 const socialMediaLinks = {
