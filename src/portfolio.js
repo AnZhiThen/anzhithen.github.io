@@ -116,10 +116,10 @@ const workExperiences = {
       date: "January 2019 – Present",
       desc: "",
       descBullets: [
-        "Developed and maintained a client-facing web application that facilitates security settings configuration across multiple operating system platforms.",
-        "Developed Jest tests to ensure a code coverage of at least 90% on UI components.",
-        "Introduced custom components to remove the use of “v-html” syntax that renders arbitrary HTML as they are vulnerable to XSS attacks.",
-        "Removed 100% data inconsistencies of old UI components by integrating with Vuex which hold the single source of truth.",
+        "Develop and maintain a client-facing web application that facilitates security settings configuration across multiple operating system platforms.",
+        "Develop Jest tests to ensure a code coverage of at least 90% on UI components.",
+        "Introduce custom components to remove the use of “v-html” syntax that renders arbitrary HTML as they are vulnerable to XSS attacks.",
+        "Remove 100% data inconsistencies of old UI components by integrating with Vuex which hold the single source of truth.",
         "Improve code maintainability and reduce error occurrences by 50% by integrating Typescript to leverage on its OOP properties and static type checks."
       ]
     },
@@ -130,7 +130,7 @@ const workExperiences = {
       date: "August 2018 – December 2018",
       desc: "",
       descBullets: [
-        "Perform smoke tests on the latest patches of software to ensure full compatibility with other Autodesk products.",
+        "Performed smoke tests on the latest patches of software to ensure full compatibility with other Autodesk products.",
         "Developed C# test cases for client and server API modules to ensure correct functionality."
       ]
     },
